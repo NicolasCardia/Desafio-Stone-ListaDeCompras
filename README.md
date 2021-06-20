@@ -8,7 +8,7 @@
 
 - [Premissas](#Premissas)
 
-- [Tecnologia escolhida para realizar o projeto](#Tecnologia-escolhida-para-realizar-o-projeto)
+- [Tecnologia escolhida para realizar o projeto](#Linguagem-de-programação-escolhida-para-realizar-o-projeto)
 
 - [Como rodar o projeto](#como-rodar-o-projeto)
 
