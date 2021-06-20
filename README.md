@@ -83,7 +83,7 @@ Clicar no botão "Gerar lista de pagamento" para poder ver quanto cada e-mail de
 > para serem usadas nas funções e os arrays vazio serem preenchidos com o metodo .push() nas funções gerarItens(), gerarEmails() e criarListaPagamento. 
 
 **3º crio as minhas funções**
-que criam os itens, e-mails e listaDePagamentos e realizam as lógicas matemáticas.
+> que criam os itens, e-mails e listaDePagamentos e realizam as lógicas matemáticas.
 
 **Lógica matemática:**
 
@@ -96,4 +96,5 @@ valorTotalProdutos / qtdEmail = valorPorPessoa
 qtdEmail % valorTotalProdutos = restoDaDivisão
 
 **4º Printo os resultados na Tela**
+
 Printo na tela usando O Modelo de Objeto de Documento (**DOM**) 
