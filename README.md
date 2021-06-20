@@ -42,13 +42,13 @@ Imagine uma lista de compras. Ela possui:
 # Premissas
 1º É **importante que não falte nenhum centavo!** Então caso ocorra uma divisão que o resultado é uma dizima infinita, o "resto" do valor deve ser distribuido entre os e-mails, até que o resto fique igual a **0** 
 >**exemplo:**
-> valorTotalProdutos = 3
-> e-mails = 2
-> valorTotalProdutos(3) ÷ e-mails(2) = **1** (valorOriginal = 1.5)
-> resto = 1
-> **Resultado:**
-> 1º e-mail deve pagar **2**
-> 2º e-mail deve pagar **1**
+ - valorTotalProdutos = 3
+ - e-mails = 2
+ - valorTotalProdutos(3) ÷ e-mails(2) = **1** (valorOriginal = 1.5)
+ - resto = 1
+ - **Resultado:**
+- 1º e-mail deve pagar **2**
+- 2º e-mail deve pagar **1**
 
 2º **NÃO trabalhe com valores decimais**. Ou seja, ponto flutuante ou float. Use **inteiros** para representar os valores!
 
@@ -80,16 +80,20 @@ Clicar no botão "Gerar lista de pagamento" para poder ver quanto cada e-mail de
 - a class pagamento é para gerar o objeto de pagamento que recebe o email e o valor a ser pago
 
 **2º crio a minhas variáveis** 
-> para serem usadas nas funções e os arrays vazio serem preenchidos com o metodo .push() nas funções gerarItens(), gerarEmails() e criarListaPagamento 
+> para serem usadas nas funções e os arrays vazio serem preenchidos com o metodo .push() nas funções gerarItens(), gerarEmails() e criarListaPagamento. 
 
-**2º crio as minhas funções**
+**3º crio as minhas funções**
 que criam os itens, e-mails e listaDePagamentos e realizam as lógicas matemáticas.
 
->**Lógica matemática:** 
+**Lógica matemática:**
+
 quantidade * preco = valorTotalProduto
+
 valorTotalProdutos + valorTotalProduto = valorTotalProdutos
+
 valorTotalProdutos / qtdEmail = valorPorPessoa
+
 qtdEmail % valorTotalProdutos = restoDaDivisão
 
-**3º Printo os resultados na Tela**
->Printo na tela usando O Modelo de Objeto de Documento (**DOM**) 
+**4º Printo os resultados na Tela**
+Printo na tela usando O Modelo de Objeto de Documento (**DOM**) 
