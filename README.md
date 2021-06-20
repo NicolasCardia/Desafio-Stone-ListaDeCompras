@@ -1,6 +1,6 @@
-<p align="center">
-<img  style="border-radius: 8px; width:50%;" src="(https://user-images.githubusercontent.com/75455191/122658846-5f339a80-d148-11eb-8d08-efa6fb6971f6.png)"/>
-</p>
+
+![foto_readme](https://user-images.githubusercontent.com/75455191/122658846-5f339a80-d148-11eb-8d08-efa6fb6971f6.png)
+
 
 # Índice
 
