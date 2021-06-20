@@ -8,7 +8,7 @@
 
 - [Premissas](#Premissas)
 
-- [Tecnologia escolhida para realizar o projeto](#Linguagem-de-programação-escolhida-para-realizar-o-teste-técnico)
+- [Linguagem de programção escolhida para realizar o Teste Técnico](#Linguagem-de-programação-escolhida-para-realizar-o-Teste-Técnico)
 
 - [Como rodar o projeto](#como-rodar-o-projeto)
 
