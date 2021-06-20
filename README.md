@@ -52,7 +52,7 @@ Imagine uma lista de compras. Ela possui:
 
 3º A quantidade de e-mails deve ser **menor** que o valor total dos produtos, para evitar que gere números menores que **1** . 
 
-# Tecnologia escolhida para realizar o Teste Técnico
+# Linguagem de programção escolhida para realizar o Teste Técnico
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 > por ser a linguagem que eu mais tenho conhecimento atualmente.
 
