@@ -13,7 +13,8 @@
 - [Como rodar o projeto](#como-rodar-o-projeto)
 
 - [Informações Técnicas](#Informações-Técnicas)
-- 
+
+
 # Desafio
 
 Imagine uma lista de compras. Ela possui:
@@ -37,6 +38,7 @@ Imagine uma lista de compras. Ela possui:
 
 - Retornar um mapa/dicionário onde a chave será o e-mail e o valor será quanto ele deve pagar nessa conta.
 
+
 # Premissas
 1º É **importante que não falte nenhum centavo!** Então caso ocorra uma divisão que o resultado é uma dizima infinita, o "resto" do valor deve ser distribuido entre os e-mails, até que o resto fique igual a **0** 
 >**exemplo:**
@@ -52,9 +54,11 @@ Imagine uma lista de compras. Ela possui:
 
 3º A quantidade de e-mails deve ser **menor** que o valor total dos produtos, para evitar que gere números menores que **1** . 
 
+
 # Linguagem de programção escolhida para realizar o Teste Técnico
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 > por ser a linguagem que eu mais tenho conhecimento atualmente.
+
 
 # Como rodar o projeto
 
@@ -68,6 +72,7 @@ Você recebera uma lista randomica de emails, uma lista randomica de produtos e 
 ## Terceiro Passo
 Clicar no botão "Gerar lista de pagamento" para poder ver quanto cada e-mail deve pagar 
 -> Caso queira repetir o processo com outros números basta clicar no botão "gerar outra lista".
+
 
 # Informações Técnicas
 **1º Crio duas classes, item e pagamento**
