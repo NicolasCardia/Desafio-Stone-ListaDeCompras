@@ -1,5 +1,5 @@
 <p align="center">
-<img  style="border-radius: 8px; width:50%;" src=""/>
+<img  style="border-radius: 8px; width:50%;" src="./img/foto_readme.jpg"/>
 </p>
 
 # Índice
