@@ -8,11 +8,11 @@
 
 - [Premissas](#Premissas)
 
-- [Linguagem de programção escolhida para realizar o Teste Técnico](#Linguagem-de-programação-escolhida-para-realizar-o-Teste-Técnico)
+- [Linguagem de programção escolhida para realizar o teste técnico](#Linguagem-de-programação-escolhida-para-realizar-o-teste-técnico)
 
 - [Como rodar o projeto](#como-rodar-o-projeto)
 
-- [Informações Técnicas](#Informações-Técnicas)
+- [Informações técnicas](#Informações-técnicas)
 
 
 # Desafio
@@ -40,7 +40,7 @@ Imagine uma lista de compras. Ela possui:
 
 
 # Premissas
-1º É **importante que não falte nenhum centavo!** Então caso ocorra uma divisão que o resultado é uma dizima infinita, o "resto" do valor deve ser distribuido entre os e-mails, até que o resto fique igual a **0** 
+1º **É importante que não falte nenhum centavo!** Então caso ocorra uma divisão que o resultado é uma dizima infinita, o "resto" do valor deve ser distribuido entre os e-mails, até que o resto fique igual a **0** 
 >**exemplo:**
  - valorTotalProdutos = 3
  - e-mails = 2
@@ -55,7 +55,7 @@ Imagine uma lista de compras. Ela possui:
 3º A quantidade de e-mails deve ser **menor** que o valor total dos produtos, para evitar que gere números menores que **1** . 
 
 
-# Linguagem de programção escolhida para realizar o Teste Técnico
+# Linguagem de programção escolhida para realizar o teste técnico
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 > por ser a linguagem que eu mais tenho conhecimento atualmente.
 
@@ -67,16 +67,16 @@ De um git clone no projeto e abra o arquivo **index.html** no seu navegador
 
 ## Segundo Passo
 
-Você recebera uma lista randomica de emails, uma lista randomica de produtos e a soma do valor total dos mesmos e o resto (caso o resultado da divisão seja um valor decimal) que é o valor que vamos distribuir entre os email-s
+Você recebera uma lista randomica de emails, uma lista randomica de produtos, a soma do valor total dos produtos e o resto (caso o resultado da divisão seja um valor decimal) que é o valor que vamos distribuir entre os email-s
 
 ## Terceiro Passo
 Clicar no botão "Gerar lista de pagamento" para poder ver quanto cada e-mail deve pagar 
 -> Caso queira repetir o processo com outros números basta clicar no botão "gerar outra lista".
 
 
-# Informações Técnicas
+# Informações técnicas
 **1º Crio duas classes, item e pagamento**
--  a class item é para criar um objeto "item" com todos os parâmentros nescessarios 
+-  a class item é para criar um objeto "item" com todos os métodos e atributos nescessarios para retornar uma parâmetro
 - a class pagamento é para gerar o objeto de pagamento que recebe o email e o valor a ser pago
 
 **2º crio a minhas variáveis** 
@@ -91,7 +91,7 @@ quantidade * preco = valorTotalProduto
 
 valorTotalProdutos + valorTotalProduto = valorTotalProdutos
 
-valorTotalProdutos / qtdEmail = valorPorPessoa
+valorTotalProdutos / qtdEmail = valorPorPessoa (se não for um número inteiro, ele será arredondado para baixo)
 
 qtdEmail % valorTotalProdutos = restoDaDivisão
 
